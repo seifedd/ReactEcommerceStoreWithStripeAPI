@@ -1,11 +1,11 @@
-// sk_test_51LnUKJDM1jwCEz8OJG69szv032rIo4X0WrFMaXrqxu9g8fdohsL1y54JEUhFUKrqoBquVjN3AzpIFyrbN915bgcd00O5hqoGCJ
+// sk_test_51M0xn8JAtf0lxKlAYMntJsxioIsR9zlSNRLWi8WxGo9X3Mth2835az956QXXGfCzorvVPRJXPEOkPy4tp5r3EBVf002OALCVJR
 // Coffee: price_1LnUTFDM1jwCEz8OGoOSXiSM
 // Sunglasses: price_1LnUTxDM1jwCEz8OAqHYTwKQ
 // Camera: price_1LnUUoDM1jwCEz8OvxIcJ7to
 const express = require("express");
 var cors = require("cors");
 const stripe = require("stripe")(
-  "sk_test_51LnUKJDM1jwCEz8OJG69szv032rIo4X0WrFMaXrqxu9g8fdohsL1y54JEUhFUKrqoBquVjN3AzpIFyrbN915bgcd00O5hqoGCJ"
+  "sk_test_51M0xn8JAtf0lxKlAYMntJsxioIsR9zlSNRLWi8WxGo9X3Mth2835az956QXXGfCzorvVPRJXPEOkPy4tp5r3EBVf002OALCVJR"
 );
 
 const app = express();
@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.static("public"));
 app.use(express.json());
 
-app.post("/checkout", async (req, res) => {
+app.post("checkout", async (req, res) => {
   /*
     req.body.items
     [

@@ -1,7 +1,6 @@
 {
   "name": "reactecommerceproject",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.2.0",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,5 +13,15 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "stripe": "^10.16.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seifedd/ReactEcommerceStoreWithStripeAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seifedd/ReactEcommerceStoreWithStripeAPI/issues"
+  },
+  "homepage": "https://github.com/seifedd/ReactEcommerceStoreWithStripeAPI#readme",
+  "description": ""
 }

@@ -8,12 +8,7 @@ function CartProduct(props) {
   const id = props.id;
   const quantity = props.quantity;
   const [productData, loading] = useFetchProductData(id);
-  // const productData = cart.getProductData();
-  console.log(
-    "#####################################################################"
-  );
-  console.log(id);
-  console.log(productData);
+
   return (
     <>
       {loading && <div>Loading</div>}
